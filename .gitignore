@@ -1,0 +1,40 @@
+# Flutter/Dart
+.dart_tool/
+.packages
+.pub/
+.flutter-plugins
+.flutter-plugins-dependencies
+.metadata
+.pub-cache/
+
+# Lock files (usually not committed for apps)
+pubspec.lock
+
+# Build outputs
+/build/
+**/ios/Flutter/.last_build_id
+app.*.map.json
+app.*.symbols
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.atom/
+.history/
+
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.svn/
+migrate_working_dir/
+
+# Android build artifacts
+/android/app/debug
+/android/app/profile
+/android/app/release
