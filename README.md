@@ -30,27 +30,27 @@ Check installation:
 flutter --version
 
 ```
-##🚀 Run Locally (Step-by-Step)
-###1️⃣ Clone the repo
+## 🚀 Run Locally (Step-by-Step)
+### 1️⃣ Clone the repo
 git clone https://github.com/mohithjain/SoulEase_MentalHealthApp.git
 cd SoulEase_MentalHealthApp
 
-###2️⃣ Install dependencies
+### 2️⃣ Install dependencies
 flutter pub get
 
-###3️⃣ Run the app
+### 3️⃣ Run the app
 flutter devices           # list devices/emulators
 flutter run               # run on default device
 flutter run -d <device-id>   # run on specific device
 
 
-##👉 To launch an emulator:
+## 👉 To launch an emulator:
 
 flutter emulators
 flutter emulators --launch <emulator_id>
 flutter run
 
-##📦 Build for Release
+## 📦 Build for Release
 Android
 # APK
 flutter build apk --release  
@@ -58,13 +58,13 @@ flutter build apk --release
 # App Bundle (Play Store)
 flutter build appbundle --release
 
-##iOS (on macOS)
+## iOS (on macOS)
 cd ios
 pod install
 cd ..
 flutter build ios --release
 
-##⚙️ Config / Environment
+## ⚙️ Config / Environment
 
 If your project uses runtime configs (API endpoints, keys):
 
@@ -80,7 +80,7 @@ Example:
 const String API_BASE_URL = "https://api.example.com";
 const String SOME_PUBLIC_KEY = "REPLACE_WITH_VALUE";
 
-##🐛 Troubleshooting
+## 🐛 Troubleshooting
 
 Line ending warnings (CRLF vs LF):
 Add .gitattributes with:
@@ -94,7 +94,7 @@ Make sure you’ve created commits and renamed the branch:
 git branch -M main
 git push -u origin main
 
-##🤝 Contributing
+## 🤝 Contributing
 
 Fork the repo 🍴
 
