@@ -120,7 +120,7 @@ If you are experiencing severe mental health issues, please consult a certified 
 
 ## 👨‍💻 Developers
 
-- [Mohith Jain](https://github.com/mohithjain) 
 - [Manvi Sharma](https://github.com/ManviSharma04)
+- [Mohith Jain](https://github.com/mohithjain) 
 
 
